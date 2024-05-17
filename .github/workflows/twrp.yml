@@ -15,13 +15,13 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
-  DEVICE: m10lte
+  DEVICE: emerald
   DT_LINK: https://github.com/Hostfl/android_device_samsung_m10lte -b android_11
-  DT_PATH: device/samsung/m10lte
+  DT_PATH: device/xiaomi/emerald
   TARGET: recoveryimage
   BUILD: recovery
   OT: twrp_
-  TZ: Europe/London
+  TZ: america/New York
 
 jobs:
   build:
